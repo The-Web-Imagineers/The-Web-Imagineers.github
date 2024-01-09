@@ -1,0 +1,73 @@
+Microsoft Revamping Semantic Kernel AI SDK After 'Unexpected Uses'
+Microsoft switched gears on its plan for the initial release of its Semantic Kernel SDK for AI development after finding its API was being used in unexpected ways.
+
+The SDK acts like an AI orchestration layer in Microsoft' stack of AI models and Copilot AI assistants, providing interaction services to work with underlying foundation models and AI infrastructure.
+
+The company's "What is Semantic Kernel?" documentation says: "Semantic Kernel is an open-source SDK that lets you easily combine AI services like OpenAI, Azure OpenAI, and Hugging Face with conventional programming languages like C# and Python. By doing so, you can create AI apps that combine the best of both worlds."
+
+
+[Click on image for larger view.]
+Semantic Kernel in the Microsoft Ecosystem (source: Microsoft).
+Just last month, Microsoft shipped the first beta, noting many breaking changes along with the removal of OpenAI-specific code, lessening the ties with the Microsoft partner that unleashed ChatGPT on the world and subsequently supercharged many Microsoft products and services with advanced AI tech, including generative AI. The team also noted other changes like embracing the plugin concept, now using the term "Plugins" instead of the former moniker, "Skills."
+
+This week, the team posted an update on the path to a release candidate and, eventually, Semantic Kernel v1.0.0, noting several challenges toward the goal of developing a simple-to-use API that can act as a reliable foundation for current and future applications. Those challenges include the SDK being put to use in ways the team didn't anticipate.
+
+"One challenge we are finding, however, is that our current API is being used in unexpected ways," the team said. "As we make changes, we are using an obsolescence strategy with guidance on how to move to the new API. This doesn't work well for unexpected uses on our current APIs, however, so we need help from the community."
+
+Getting help from the community to guide the team's direction is the purpose of the post, which details the planned changes and why they are being made, points to samples using the proposed v1 API and explains how to provide feedback.
+
+Microsoft didn't go into detail about those unexpected use cases for the API, rather focusing on proposed changes being made to address the four goals of the initial release:
+Simplify the core of Semantic Kernel.
+Expose the full power of LLMs through semantic functions.
+Improve the effectiveness of Semantic Kernel planners.
+Provide a compelling reason to use the kernel.
+Goal No. 4 is obviously important to the success of the project, and Microsoft noted five proposed changes to help achieve it:
+
+Use a function with multiple kernels
+Introducing plugins to the kernel
+Simplifying the creation of a kernel
+Stream functions from the kernel
+Evaluate your AI by running the same scenario across different kernels
+"Stacked together, these changes make it possible for you to easily setup multiple kernels with different configuration," the team said. "When used with a product like Prompt flow, this allows you to pick the best setup by running batch evaluations and A/B tests against different kernels."
+
+To provide a sneak peek at v1, the post points to a GitHub repo set up by the team that provides samples showing what v1 will look like. The /dotnet/samples folder can be found in the sk-v1-proposal repo.
+
+That folder currently features four scenarios that the team said capture the most common apps built by customers:
+
+Simple chat
+Persona chat (i.e., with meta prompt)
+Simple RAG (i.e., with grounding)
+Dynamic RAG (i.e., with planner-based grounding)
+The team will also add Python and Java samples to get additional feedback on those languages for v1.
+
+"To centralize feedback on our v1 proposal, please connect with us on our discussion board on GitHub. There, we've created a dedicated discussion where you can provide us with feedback," the post concluded.
+
+
+About the Author
+
+David Ramel is an editor and writer for Converge360.
+
+PRINTABLE FORMAT
+
+
+
+Featured
+
+Microsoft PowerToys Getting New PowerShell Module
+Microsoft is polishing up a new PowerToys utility to improve the user experience on PowerShell in Windows 10 and 11 by suggesting installations of missing components through WinGet packages.
+
+
+GitHub Copilot Chat Heralds Speech as 'New Universal Programming Language'
+GitHub Copilot Chat is delivered as extensions for Visual Studio Code and Visual Studio, with the VS Code tool much more popular (nearly 6 million installs compared with 191,183 for the IDE version).
+
+
+New Tool Helps Migrate On-Premises .NET Apps to Azure Cloud
+Debuting with the unwieldy moniker "Azure Migrate application and code assessment tool for .NET" (shortened to AppCAT), it helps developers assess a .NET app's code, configurations and binaries to smooth the migration process,
+
+
+Matrix Inverse from Scratch Using QR Decomposition with C#
+Dr. James McCaffrey of Microsoft Research guides you through a full-code, step-by-step tutorial on "one of the most important operations in machine learning."
+
+
+Mastering Application Testing: Scaling and Continuous UI Testing with Playwright
+Embracing automated testing is crucial for achieving technical resilience in modern applications, and for web UI testing that embrace is easier with Microsoft's Playwright.
